@@ -15,7 +15,7 @@ $(document).on('pageinit', function(){
         if(networkState != 'none')
         {
             setInterval(function(){
-                var url = "http://www.666kw.com/includes/qmRadio_check_android.php";
+                var url = "http://82.165.46.58:8000/stream.mp3";
 
                 var sendData ='q=phonegap';
 
