@@ -45,7 +45,7 @@ $(document).on('pageinit', function(){
 
             $("#play").on('tap', function() {
                 if(qmRadioStatus == 0){
-                    qmRadioSrc = 'http://qmradio.666kw.com/666kw-com_qmRadio.mp3';
+                    qmRadioSrc = 'http://82.165.46.58:8000/stream.mp3';
                     my_media = new Media(qmRadioSrc,
                     function(){
                         $("#qmRadio_status").html("Streaming qmRadio");

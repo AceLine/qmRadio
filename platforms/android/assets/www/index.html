@@ -8,16 +8,14 @@
         <title>qmRadio</title>
         <link rel="stylesheet" type="text/css" href="css/qmRadio.min.css" />
         <link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.3.2.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/jquery.equalizer.css" />
     </head>
     <body>
         <div data-role="page">
             <div data-role="content">
                 <div class="buttons">
                     <center>
-                        <div id="qmRadio_status"></div>
-                        <!--img src="img/symPlayingStream.png" id="play" alt="Play" />&nbsp;&nbsp;-->
                         <img src="img/symPlayPauseStream.png" id="play" alt="Start stream" />
+                        <div id="qmRadio_status"></div>
                     </center>
                 </div>
                 <div class="app">
@@ -26,13 +24,6 @@
                         <p id="connecting" class="event connecting">Connecting...</p>
                         <p id="closing" class="event closing">Closing...</p>
                         <p id="nowplaying" class="event nowplaying"></p>
-                    </div>
-                    <div id="equalizer">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
                     </div>
                 </div>
             </div>
